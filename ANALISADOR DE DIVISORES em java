@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class TodosDivs {
+	public static void main(String[] args) {
+		Scanner le = new Scanner(System.in);
+		
+		int num, cont = 1, primo=0;
+		String nome;
+		
+		System.out.println("-------------------------------------------------------------");
+		System.out.println("                 ANALISADOR DE DIVISORES");
+		System.out.println("-------------------------------------------------------------");
+		System.out.println();
+		
+		System.out.print("O seu nome: ");
+		nome = le.nextLine();
+		
+		System.out.print(nome + ", diga um numero ai meu chapa: ");
+		num = le.nextInt();
+		
+		while(cont <= num) {
+			if(num % cont == 0) {
+				System.out.println(cont);
+				primo++;
+				
+			}
+			
+			cont++;
+		}
+				
+		System.out.println(nome + ", Esses são os divisores de: " + num);
+		if(primo == 2) {
+			System.out.println("Esse numero é primo!!!");
+		}
+		System.out.println("-------------------------------------------------------------");
+	}
+}
