@@ -1,2 +1,1 @@
-# Hello-World
-just a test
+# EXERCÍCIOS DE LÓGICA DE PROGRAMAÇÃO EM JAVA
