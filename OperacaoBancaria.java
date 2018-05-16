@@ -34,7 +34,7 @@ public class Operacao {
 	
 		case 3:
 			System.out.println("--------------------------------------------------------");
-			System.out.println(" 	        Convers„o");
+			System.out.println(" 	        Convers√£o");
 			System.out.println("--------------------------------------------------------");
 			System.out.println(" [1 = Dollar] [2 = Euro] ");
 			int conv = le.nextInt();
