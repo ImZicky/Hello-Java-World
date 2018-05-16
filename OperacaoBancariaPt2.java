@@ -23,7 +23,7 @@ public class BancoCreuza {
 		
 		titulo(nome);
 		
-		System.out.print("Você tem quanto na sua conta? >> ");
+		System.out.print("VocÃª tem quanto na sua conta? >> ");
 		double pValorConta = le.nextInt();
 		
 		operacao.setValorConta(pValorConta);
