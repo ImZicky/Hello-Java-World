@@ -21,17 +21,17 @@ public class NumPri {
 		System.out.print(nome + ", qual o nome do produto que quer comprar: ");
 		produto = le.nextLine();				
 		
-		System.out.print(nome + ", qual o preço normal de 1 " + produto + ": ");
+		System.out.print(nome + ", qual o preÃ§o normal de 1 " + produto + ": ");
 		preco = le.nextDouble();
 		
-		System.out.print(">des< ou um acrécimo >aum< no valor total do seu produto: ");
+		System.out.print(">des< ou um acrÃ©cimo >aum< no valor total do seu produto: ");
 		resp = le.nextLine();
 		
 
 				
 		switch (resp) {
 		case "des":
-			System.out.print("e ai meu chapa, de quantos por cento irá ser o seu desconto: ");
+			System.out.print("e ai meu chapa, de quantos por cento irÃ¡ ser o seu desconto: ");
 			desconto = le.nextDouble();
 			novoPreco = preco - (preco * desconto/100);
 			break;
